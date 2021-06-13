@@ -6,7 +6,11 @@ let vapidKeys = {
   };
 
 
-push.setVapidDetails("mailto:test@code,co.uk", vapidKeys.privateKey,vapidKeys.privateKey);
+push.setVapidDetails(
+    "mailto:test@code,co.uk", 
+    vapidKeys.privateKey,
+    vapidKeys.privateKey
+);
 
 let sub = {}
 
